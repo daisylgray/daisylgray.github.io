@@ -1,0 +1,97 @@
+body {
+	font-family: monospace;
+	background-color: lightsteelblue;
+	overflow-x: hidden;
+}
+
+h1  {
+	text-align: center;
+	text-decoration: underline;
+	padding-bottom: 5px;
+	padding-top: 60px;
+}
+
+#subheadinfo {
+	text-align: center;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+#buttondiv {
+	padding-top: 80px;
+	text-align: center;
+}
+
+#quotediv {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#quote {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+#quote:hover {
+	text-decoration: underline;
+}
+
+.buttons {
+	font-weight: bold;
+	color: rgba(39, 55, 31, 1.0);
+	transition: 250ms;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding: 10px;
+	display: block;
+	border: solid 1px black;
+	border-radius: 20px;
+	width: 100px;
+	text-decoration: none;
+}
+
+.buttons:hover {
+	background-color: rgba(211, 210, 206, 1.0);
+}
+
+.buttons:visited {
+	color: rgba(39, 55, 31, 1.0);
+}
+
+#bookimg {
+	padding-top: 20;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	object-position: 100% 1;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 20px grey;
+}
+
+#copyright {
+	text-align: center;
+	position: absolute;
+	bottom: 1px;
+	width: 100%;
+	font-style: normal;
+
+}
+
+#infodiv {
+	box-shadow: 0px 0px 30px green;
+	border: solid 1px black;
+	border-radius: 15px;
+	width: 50%;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
