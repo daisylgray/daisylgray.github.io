@@ -12,6 +12,10 @@ h1  {
 	padding-top: 60px;
 }
 
+hr {
+	border-color: black;
+}
+
 #subheadinfo {
 	text-align: center;
 	font-style: italic;
