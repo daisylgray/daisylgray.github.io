@@ -1,0 +1,150 @@
+body {
+	font-family: monospace;
+	background-color: lightsteelblue;
+	overflow-x: hidden;
+}
+
+h1  {
+	transition: 250ms;
+	text-align: center;
+	text-decoration: underline;
+	padding-bottom: 5px;
+	padding-top: 60px;
+}
+
+hr {
+	border-color: black;
+}
+
+a {
+	color: mediumvioletred;
+}
+
+a:visited {
+	color: mediumvioletred;
+}
+
+.jobs {
+	font-weight: bold;
+}
+
+#subheadinfo {
+	text-align: center;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+#buttondiv {
+	padding-top: 80px;
+	text-align: center;
+}
+
+#quotediv {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#quote {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+#quote:hover {
+	text-decoration: underline;
+}
+
+.buttons {
+	font-weight: bold;
+	color: rgba(39, 55, 31, 1.0);
+	transition: 250ms;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding: 10px;
+	display: block;
+	border: solid 1px black;
+	border-radius: 20px;
+	width: 100px;
+	text-decoration: none;
+}
+
+.buttons:hover {
+	background-color: rgba(211, 210, 206, 1.0);
+}
+
+.buttons:visited {
+	color: rgba(39, 55, 31, 1.0);
+}
+
+#bookimg {
+	border: solid 1px black;
+	padding-top: 20;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	object-position: 100% 1;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#copyright {
+	text-align: center;
+	font-style: normal;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+
+}
+
+#infodiv {
+	box-shadow: 0px 0px 30px gray;
+	border: solid 1px black;
+	border-radius: 15px;
+	width: 80%;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#infobold {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+#row-fluid {
+	padding-top: 15px;
+	display: none;
+}
+
+#button1 {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cvpassword:hover {
+	cursor: pointer;
+}
+
+/*
+
+@media only screen and (max-width: 800px) {
+	.buttons {
+		width: 200px;
+		font-size: 20px;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+}
+*/
